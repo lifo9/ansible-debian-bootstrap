@@ -10,11 +10,11 @@ The initial machine should have a running ssh server with root login via passwor
 
 Role Variables
 --------------
-| Variable       | Required | Default | Choices | Comments                                                    |
-| -------------- | -------- | ------- | ------- | ----------------------------------------------------------- |
-| user           | yes      |         |         | Default username                                            |
-| user_password  | yes      |         |         | Default user password                                       |
-| id_ed25519_pub | yes      |         |         | Public ssh key which can be used to login as a default user |
+| Variable       | Required | Comments                                                    |
+| -------------- | -------- | ----------------------------------------------------------- |
+| user           | yes      | Default username                                            |
+| user_password  | yes      | Default user password                                       |
+| id_ed25519_pub | yes      | Public ssh key which can be used to login as a default user |
 
 
 Example Playbook
