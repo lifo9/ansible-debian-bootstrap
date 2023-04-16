@@ -1,4 +1,4 @@
-Role Name
+Ansible Debian Bootstrap
 =========
 
 Setups a debian machine with sane defaults.
@@ -19,10 +19,11 @@ Role Variables
 
 Example Playbook
 ----------------
+```yaml
 - hosts: servers
   roles:
     - { role: debian-bootstrap, become: true }
-
+```
 License
 -------
 
