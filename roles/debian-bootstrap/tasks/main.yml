@@ -1,0 +1,12 @@
+---
+# tasks file for debian-bootstrap
+- name: Ensure apt cache is updated.
+  apt:
+    update_cache: true
+    cache_valid_time: 600
+
+- name: Setup default user
+  import_tasks: rootless.yml
+
+- name: Setup SSH
+  import_tasks: sshd.yml

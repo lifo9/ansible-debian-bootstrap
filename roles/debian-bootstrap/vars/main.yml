@@ -1,0 +1,5 @@
+---
+# vars file for debian-bootstrap
+user: "{{ undef(hint='You must specify user') }}"
+user_password: "{{ undef(hint='You must specify user_password') }}"
+id_ed25519_pub: "{{ undef(hint='You must specify id_ed25519_pub') }}"

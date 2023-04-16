@@ -1,0 +1,6 @@
+---
+# handlers file for debian-bootstrap
+- name: restart ssh
+  service:
+    name: ssh
+    state: restarted
